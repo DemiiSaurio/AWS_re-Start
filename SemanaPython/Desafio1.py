@@ -1,0 +1,12 @@
+print("Ingrese numero de horas trabajadas al dia:")
+hor = int(input())
+print("Ingrese el coste de cada hora:")
+val = int(input())
+
+print(f"por {hor} horas al dia... con un valor de {val} da como resultado")
+res = (hor * val)
+print(f"1 dia ={res}")
+res = (hor * val * 5) 
+print(f"a la semana = {res}")
+res = (res * 4)
+print(f"en 4 semanas (1 mes) = {res}")

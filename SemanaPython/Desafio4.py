@@ -1,0 +1,5 @@
+print("Ingrese numero a dividir:")
+m = int(input())
+print("dividido por :")
+n = int(input())
+print(f"la divicion entre {m} y {n} es {m/n} y el restante es {m%n}")
